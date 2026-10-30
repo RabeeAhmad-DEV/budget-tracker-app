@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+    <title>smart-budget</smart-budget></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containers">
+        <header class="container1">
+            <div class="rem-bal">
+                <h1>Remaining balance</h1>
+                <p class="rem-bal-p">
+                </p>
+            </div>
+            <div class="tot-in-exp">
+                <div class="tot-in">
+                    <h3>Total Income</h3>
+                    <p class="tot-in-p">
+                    </p>
+                </div>
+                <div class="tot-exp">
+                    <h3>Total Expenses</h3>
+                    <p class="tot-exp-p">
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <main class="container2">
+            <input type="text" class="user-proc"
+            placeholder="What's your procedure?">
+
+            <input type="number" class="user-proc-amount"
+            placeholder="What's your procedure amount?">  
+            
+            <select  class="in-ex">
+                <option value="Income" class="opt">Income</option>
+                <option value="Expense" class="opt">Expense</option>
+            </select>
+            <button class="add-proc">Add Procedure</button>
+        </main>
+
+        <section class="container3">
+            <div class="h1-btn">
+                <h1>
+                    History
+                </h1>
+                <button class="clr-all-btn">Clear All</button>
+            </div>
+            <div class="hestory-list">
+                
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
